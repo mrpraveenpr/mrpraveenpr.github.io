@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatibale" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Personal Portfolio Website- </title>
+    <link rel="stylesheet"href="style.css">
+    <script src="https://kit.fontawesome.com/3f0e2a5ba2.js" crossorigin="anonymous"></script>
+</head>
+   <body>
+<div id="header">
+   <div class="container">
+      <nav>
+         <img src="images/logo2.png" class="logo">
+         <ul id="sidemenu">
+            <li> <a href="#header">Home</a></li>
+            <li> <a href="#About">About</a></li>
+            <li> <a href="#services">Services</a></li>
+            <li> <a href="#portfolio">Portfolio</a></li>
+            <li> <a href="#contact"> Contacts</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+         </ul>
+         <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+         <p>Hi There</p>
+         <h1>Hi I'm <span class="input"></span></h1>
+         <p>In Our Home,Love,Laughter And Friendship <br>
+            Are<br>
+            Always Welcome...😊</p>
+      </div>
+   </div>
+</div>
+<!-----------about------------>
+<div id="About">
+   <div class="container">
+      <div class="row">
+       <div class="About-col-1">
+         <img src="images\About.png">
+       </div>
+        <div class="About-col-2">
+         <h1 class="sub-title">About Me:</h1>
+           <p>Seeking a position in the world of computer science where I can utilize my skills to further work towards personals and professionals development and contribute towards the prosperity of the organsation.</p>
+            <div class="tab-titles">
+               <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+               <p class="tab-links" onclick="opentab('education')">Education</p>
+               <p class="tab-links" onclick="opentab('project')">Project</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+               <ul>
+                  <li><span>Web Development:</span><br>Designing Web intertfaces</li>
+                  <li><span>Frontend Development:</span><br>Designing Forms and Bootstarp intertfaces.</li>
+                  <li><span>Design Development:</span><br>Editing Videos and  Pictures.</li>
+                  <li><span>Python:</span><br>Developed some programs.</li>
+               </ul>
+            </div>
+            <div class="tab-contents" id="education">
+               <ul>
+                  <li><span>UG:</span><br>Bachelor of Technology[Information Technology] At University College Of Engineering,Villupuram.<br>CGPA:8.07</li>
+                  <li><span>HSC:</span><br>National Hr Sec School,Krishnagiri.<br>Marks:430</li>
+                  <li><span>SSLC:</span><br>Govt High School,Bannihalli,Krishnagiri.<br>Marks:438</li>
+               </ul>
+            </div>
+           <div class="tab-contents" id="project">
+               <ul>
+                  <li><span>Miniproject:</span><br>Book Bank Management System<br>Frontend:HTML,CSS,Javascript<br>Backend:SQL,Flask</li>
+                  <li><span>IBM Project:</span><br>Visualizing and Predicting Heart Diseases with an Interactive Dash Board</li>
+               </ul>
+            </div>
+           </p>
+        </div>
+   </div>
+</div>
+<!-------services------------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Services:</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>plan, create and code internet sites and web pages, many of which combine text with sounds, pictures, graphics and video clips.
+                 A web designer is responsible for creating the design and layout of a website or web pages. It and can mean working on a brand new website or updating an already existing site.</p>
+                 <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UX/UI Design</h2>
+                <p>create the user interface for an app, website, or other interactive media. Their work includes collaborating with product 
+                managers and engineers to gather requirements from users before designing ideas that can be communicated using storyboards. They also process flows or sitemaps.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p> gathers requirements from business systems analysts and end users. The application programmer is responsible for developing and maintaining application programs. 
+                The tasks of designing an application and developing one are distinct enough to treat each in a separate learning module.</p>
+                <a href="#">Learn more</a>
+            </div>
+                
+        </div>
+    </div>
+</div>
+<!-------portfolio----------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work:</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/heart1.png">
+                <div class="layer">
+                    <h3>Heart Beat:</h3>
+                    <p>The webpage has a currently developed us.This theory states that if the fetal heart rate is 140BPM.</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/app1.png">
+                <div class="layer">
+                    <h3>App Design:</h3>
+                    <p>This app design was currently worked on my team members.Mobile application development.</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/stu1.png">
+                <div class="layer">
+                    <h3>Book Bank:</h3>
+                    <p>This webpage as available iin my github account.Book Bank is used by any student.</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>  
+        </div>
+        <a href="#" class="btn">Seemore</a>
+    </div>
+</div>
+<!--------Contact------------>
+<div id="contact">
+   <div class="container">
+      <div class="row">
+         <div class="contact-left">
+            <h1 class="sub-title">Contact Me:</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>praveenvijay140@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+916379132793</p>
+              <div class="social-icons">
+                <a href="https://www.linkedin.com/in/praveenkumar-saminathan-392014239"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://instagram.com/mr_ghost_31?igshid=Mzc0YWU1OWY="><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.hackerrank.com/praveenvijay140"><i class="fa-brands fa-hackerrank"></i></a>
+                <a href="https://github.com/mrpraveenpr"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.facebook.com/praveenvijay.praveenvijay.756?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+              </div>
+            <a href="D:\PRAVEEN\Portfolio web\images\PRAVEENKUMAR S resume.pdf" download class="btn  btn2">Download Cv</a>
+         </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+               <input type="text" name="Name" placeholder="Your Name" required>
+               <input type="email" name="Email" placeholder="Your Email" required>
+               <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+               <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+      </div>
+   </div>
+    <div class="copyright">
+      <p>copyright @ Praveen. Made with <i class="fa-solid fa-heart"></i> By Praveen S</p>
+    </div>
+</div>
+
+   <script type="text/javascript" src="js/script.js"></script>
+
+   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+   <script>
+      var typed= new Typed(".input",  {
+         strings:["PRAVEEN KUMAR S","WEB DEVELOPER","FRONTEND DEVELOPER"],
+            typeSpeed: 70,
+            backSpeed: 60,
+            loop:true
+        });
+     
+   </script>
+   
+<script>
+
+     var tablinks = document.getElementsByClassName("tab-links");
+     var tabcontents = document.getElementsByClassName("tab-contents");
+
+     function opentab(tabname){
+         for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+         }
+         for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+         }
+         event.currentTarget.classList.add("active-link")
+         document.getElementById(tabname).classList.add("active-tab");
+     }
+</script>
+
+<script>
+
+   var sidemenu = document.getElementById("sidemenu");
+
+   function openmenu(){
+      sidemenu.style.right ="0";
+   }
+   function closemenu(){
+      sidemenu.style.right ="-200px";
+   }
+
+</script>
+
+<script>
+   const scriptURL = 'https://script.google.com/macros/s/AKfycbz-kyfdCiZ1e4JN5F_lLRyi-tR1n_zd2ZcG4cxnNo0hhiiiWLdQ-o8JTL3Akes1QjBG/exec'
+   const form = document.forms['submit-to-google-sheet']
+   const msg = document.getElementById("msg")
+ 
+   form.addEventListener('submit', e => {
+     e.preventDefault()
+     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+       .then(response => {
+         msg.innerHTML = "Message sent successfully"
+         setTimeout(function(){
+            msg.innerHTML = ""
+         },5000)
+         form.reset()
+       })
+       .catch(error => console.error('Error!', error.message))
+   })
+</script>
+</body>
+</html>
